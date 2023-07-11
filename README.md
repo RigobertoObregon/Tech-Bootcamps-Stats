@@ -1,5 +1,5 @@
 # Bootcamps Data
-This is a project to gather, transform, and analize data from technology bootcamps and their outcomes.
+This is a project to gather, transform, and analize data from technology bootcamps and their outcomes. The data was gotten from cirr.org in PDF files and since there was transformed to dataframes to perform the analysis using multiple Python libraries.
 ## Motivation
 As part of the Data Science track from **The Knowledge House**, we have created this capstone project, to put into practice the knowledge we have acquired,
 such as Python programming, libraries to process data, to analize data, and to present information as plots, charts, etc. As well as to interpret the data
@@ -22,12 +22,6 @@ seaborn  | Based on matplotlib. It provides a high-level interface for drawing a
 scipy  | Contains modules for optimization, linear algebra, integration, interpolation, special functions, signal and image processing.
 statsmodels  | Module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
 sklearn  | It features various classification, regression and clustering algorithms.
-sklearn.impute import SimpleImputer  | .
-sklearn.linear_model import LinearRegression  | .
-sklearn.linear_model import Lasso  | .
-sklearn.linear_model import Ridge  | .
-sklearn.linear_model import ElasticNet  | .
-sklearn.metrics import r2_score, mean_squared_error  | .
 
 The process we followed in this project includes the following steps:
 * Process the data from the PDF files to populate a CSV file containing information from the PDF files
